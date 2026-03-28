@@ -110,6 +110,8 @@ results/
 
 ![Summary Plot](images/summary_plot.png)
 
+![Docker_hub image](images/Docker_hub.png)
+
 ## Script Descriptions
 
 ### `ingest.py`
