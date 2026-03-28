@@ -11,6 +11,7 @@ data = pd.read_csv(dataset_path)
 # -------------------------------
 # Insight 1: Average income
 # -------------------------------
+
 if "Income" in data.columns: #Check if Column Exists
     avg_income = data["Income"].mean() #calc average
     insight1 = f"The average income in the dataset is {avg_income:.2f}."
@@ -23,6 +24,7 @@ with open("insight1.txt", "w", encoding="utf-8") as f:
 # -------------------------------
 # Insight 2: Average total spending
 # -------------------------------
+
 if "Total_Spending" in data.columns:
     avg_spending = data["Total_Spending"].mean()
     insight2 = f"The average total spending in the dataset is {avg_spending:.2f}."
@@ -35,6 +37,7 @@ with open("insight2.txt", "w", encoding="utf-8") as f:
 # -------------------------------
 # Insight 3: Most common education level
 # -------------------------------
+
 if "Education" in data.columns:
     top_education = data["Education_Original"].mode()[0] # mode : the most frequent first word
     insight3 = f"The most common education level in the dataset is {top_education}."

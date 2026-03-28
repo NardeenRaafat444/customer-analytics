@@ -79,7 +79,6 @@ numeric_cols = ["Income", "Recency", "Age", "Total_Spending"]
 
 scaler = StandardScaler()  # Mean = 0, Standard Deviation = 1
 
-# IMPORTANT:
 # Do NOT overwrite original columns
 scaled_values = scaler.fit_transform(data[numeric_cols])
 

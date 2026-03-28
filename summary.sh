@@ -23,4 +23,3 @@ docker rm mypipeline
 echo "Container stopped and removed."
 #This is just a list of bash commands.
 
-#🧠 Where is bash used in your project?: CMD ["bash"] : Start bash shell when container runs

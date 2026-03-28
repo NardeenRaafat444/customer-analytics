@@ -15,6 +15,7 @@ plt.figure(figsize=(18, 5))
 # -------------------------------
 # Plot 1: Age distribution
 # -------------------------------
+
 plt.subplot(1, 3, 1)
 if "Age" in data.columns:
     plt.hist(data["Age"], bins=20)
@@ -28,6 +29,7 @@ else:
 # -------------------------------
 # Plot 2: Income vs Total Spending
 # -------------------------------
+
 plt.subplot(1, 3, 2)
 if "Income" in data.columns and "Total_Spending" in data.columns:
     plt.scatter(data["Income"], data["Total_Spending"])
@@ -41,6 +43,7 @@ else:
 # -------------------------------
 # Plot 3: Education count
 # -------------------------------
+
 plt.subplot(1, 3, 3)
 if "Education" in data.columns:
     data["Education"].value_counts().plot(kind="bar")

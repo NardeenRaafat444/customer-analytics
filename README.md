@@ -135,3 +135,7 @@ Applies K-Means clustering and saves the number of samples per cluster into `clu
 ### `summary.sh`
 
 Copies all generated output files into the `results/` folder and handles container cleanup.
+
+# github:
+
+https://github.com/NardeenRaafat444/customer-analytics
